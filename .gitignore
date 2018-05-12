@@ -18,3 +18,12 @@ web/.htaccess
 # Composer
 vendor/*
 !vendor/.gitkeep
+
+# macOS
+.DS_Store
+
+# VSCode
+.vscode/*
+
+# Log files
+*.log
