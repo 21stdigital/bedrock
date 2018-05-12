@@ -32,7 +32,7 @@ See a complete working example in the [roots-example-project.com repo](https://g
 
 1. Create a new project in a new folder for your project:
 
-  `composer create-project roots/bedrock your-project-folder-name`
+  `ACF_PRO_KEY=abc composer create-project 21stdigital/bedrock your-project-folder-name`
 
 2. Update environment variables in `.env`  file:
   * `DB_NAME` - Database name
