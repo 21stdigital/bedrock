@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4eb6503f8aebe9ee386e1e94092ef143",
+    "content-hash": "1c9db80c0b3c5b63b9a821158bf3ab5d",
     "packages": [
         {
             "name": "advanced-custom-fields/advanced-custom-fields-pro",
@@ -20,6 +20,35 @@
                 "philippbaschke/acf-pro-installer": "^1.0"
             },
             "type": "wordpress-plugin"
+        },
+        {
+            "name": "anthonybudd/wp_model",
+            "version": "v1.1.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/anthonybudd/WP_Model.git",
+                "reference": "79564c06a61293566dab474d5562454dc49b95ce"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/anthonybudd/WP_Model/zipball/79564c06a61293566dab474d5562454dc49b95ce",
+                "reference": "79564c06a61293566dab474d5562454dc49b95ce",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/WP_Model.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Anthony Budd",
+                    "email": "anthonybudd94@gmail.com"
+                }
+            ],
+            "time": "2017-06-26T18:16:45+00:00"
         },
         {
             "name": "composer/installers",
@@ -140,6 +169,52 @@
                 "zikula"
             ],
             "time": "2017-12-29T09:13:20+00:00"
+        },
+        {
+            "name": "johnbillion/extended-cpts",
+            "version": "4.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/johnbillion/extended-cpts.git",
+                "reference": "04c844eb6421a4a5fe90a76258acb513729092f9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/johnbillion/extended-cpts/zipball/04c844eb6421a4a5fe90a76258acb513729092f9",
+                "reference": "04c844eb6421a4a5fe90a76258acb513729092f9",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.0"
+            },
+            "require-dev": {
+                "johnbillion/php-docs-standards": "^1.2",
+                "phpunit/phpunit": "^5.7",
+                "slevomat/coding-standard": "^4.0",
+                "wp-coding-standards/wpcs": "^0.13.0"
+            },
+            "suggest": {
+                "wpackagist-plugin/rewrite-testing": "Rewrite Rule Testing"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "extended-cpts.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "John Blackbourn",
+                    "homepage": "https://johnblackbourn.com/"
+                }
+            ],
+            "description": "A library which provides extended functionality to WordPress custom post types and taxonomies.",
+            "homepage": "https://github.com/johnbillion/extended-cpts/",
+            "time": "2017-11-01T16:56:21+00:00"
         },
         {
             "name": "johnpbloch/wordpress",
@@ -368,6 +443,51 @@
             "time": "2016-07-20T10:19:36+00:00"
         },
         {
+            "name": "roots/soil",
+            "version": "3.7.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/roots/soil.git",
+                "reference": "d0e409e70dafff4ceeaa8ef941ee319e350317dd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/roots/soil/zipball/d0e409e70dafff4ceeaa8ef941ee319e350317dd",
+                "reference": "d0e409e70dafff4ceeaa8ef941ee319e350317dd",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "squizlabs/php_codesniffer": "^2.5.1"
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Scott Walkinshaw",
+                    "email": "scott.walkinshaw@gmail.com",
+                    "homepage": "https://github.com/swalkinshaw"
+                },
+                {
+                    "name": "Ben Word",
+                    "email": "ben@benword.com",
+                    "homepage": "https://github.com/retlehs"
+                }
+            ],
+            "description": "A WordPress plugin which contains a collection of modules to apply theme-agnostic front-end modifications",
+            "homepage": "https://roots.io/plugins/soil/",
+            "keywords": [
+                "wordpress"
+            ],
+            "time": "2017-08-14T01:36:41+00:00"
+        },
+        {
             "name": "roots/wp-password-bcrypt",
             "version": "1.0.0",
             "source": {
@@ -514,6 +634,26 @@
                 "environment"
             ],
             "time": "2016-09-01T10:05:43+00:00"
+        },
+        {
+            "name": "wpackagist-plugin/disable-emojis",
+            "version": "1.7.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/disable-emojis/",
+                "reference": "tags/1.7.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/disable-emojis.1.7.2.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/disable-emojis/"
         }
     ],
     "packages-dev": [
