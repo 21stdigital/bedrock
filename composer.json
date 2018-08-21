@@ -64,7 +64,9 @@
     "advanced-custom-fields/advanced-custom-fields-pro": "^5.6",
     "solarissmoke/disable-comments-mu": "^1.2",
     "wpackagist-plugin/disable-emojis": "^1.7",
-    "roots/soil": "^3.7"
+    "roots/soil": "^3.7",
+    "anthonybudd/wp_model": "^1.1",
+    "johnbillion/extended-cpts": "^4.2"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.0.2"
