@@ -1,0 +1,3 @@
+[submodule "web/app/mu-plugins/wp-tfd-core"]
+	path = web/app/mu-plugins/wp-tfd-core
+	url = https://github.com/21stdigital/wp-tfd-core.git
