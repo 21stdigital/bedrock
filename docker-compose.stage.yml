@@ -1,0 +1,23 @@
+version: "3.6"
+
+networks:
+  web:
+    external: true
+
+services:
+  app:
+    env_file: .env
+    external_links:
+      - mariadb
+    environment:
+        - WP_SITEURL=${WP_HOME}/wp
+        - WEB_DOCUMENT_ROOT=/app/web
+    image: webdevops/php-apache:alpine
+    labels:
+      traefik.backend: "MYPROJECT"
+      traefik.frontend.rule: "Host:MYPROJECT.21st.digital"
+    networks:
+      - web
+    restart: unless-stopped
+    volumes:
+      - .:/app

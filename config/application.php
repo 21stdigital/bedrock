@@ -81,3 +81,14 @@ define('DISALLOW_FILE_EDIT', true);
 if (!defined('ABSPATH')) {
     define('ABSPATH', $webroot_dir . '/wp/');
 }
+
+/*
+ * @see https://codex.wordpress.org/Function_Reference/is_ssl
+ *
+ * in some setups HTTP_X_FORWARDED_PROTO might contain
+ * a comma-separated list e.g. http,https
+ * so check for https existence
+ */
+if (array_key_exists('HTTP_X_FORWARDED_PROTO', $_SERVER) && strpos($_SERVER['HTTP_X_FORWARDED_PROTO'], 'https') !== false) {
+    $_SERVER['HTTPS']='on';
+}
